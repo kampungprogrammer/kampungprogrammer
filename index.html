@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="skils.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-folder-open"></i> Project</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <div class="content">
+            <div class="profile-container">
+                <div class="profile-pic"></div>
+            </div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>geser untuk selengkapnya</p>    
+        </div>
+    </section>
+
+<section id="about" class="section about animate-on-scroll">
+    <h2>About Me</h2>
+    <p> Saya lahir pada 31 Desember 2002 di Buntage. Saya memiliki latar belakang seorang petani, dengan minat besar pada dunia teknologi, khususnya di bidang pengembangan web dan aplikasi.</p>
+</section>
+
+<section id="skills" class="section skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <img src="img/html.png" alt="HTML & CSS">
+            <p>frontend</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/java-script.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/Python.png" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill-item">
+            <img src="img/github.png" alt="Responsive Design">
+            <p>github</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="projects" class="section projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <nav class="socmed-nav">
+            <ul>
+              <li><a href="https://www.facebook.com/names.lex.9" target="_blank"><img src="img/facebook (2).png" class="socmed-icon" alt="fb-icon"></a></li>
+              <li><a href="#" target="_blank"><img src="img/tik-tok.png" class="socmed-icon" alt="tiktok-icon"></a></li>
+              <li><a href="https://youtube.com/@kampungprogramer?si=WWpYNKZtDagOaYPc" target="_blank"><img src="img/youtube.png" class="socmed-icon" alt="yt-icon"></a></li>
+            </ul>
+          </nav>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
